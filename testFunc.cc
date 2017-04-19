@@ -3,6 +3,7 @@
 
 double f(double x);
 
+
 int main() {
 	std::cout << "root is " << newtonMethod(1.2, f) << std::endl;
 	return 0;
